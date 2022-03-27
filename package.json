@@ -1,0 +1,33 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "first initial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint",
+   "editor.formatOnSave": "true",
+    "eslint.autoFixOnSave": "true"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaslov-QA/7-2.git"
+  },
+  "author": "AAMaslov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaslov-QA/7-2/issues"
+  },
+  "homepage": "https://github.com/amaslov-QA/7-2#readme",
+
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "prettier": "2.6.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-unicorn": "^41.0.1"
+  }
+}
